@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'formulaT';
+    src: url(../font/Formula1-Bold_web.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'formulaC';
+    src: url(../font/Formula1-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'formula';
+    src: url(../font/Formula1-Regular.otf);
+}
+body{
+    background: linear-gradient(150deg, #7986CB, #283593, #15151e);
+    height: 98.3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'formula', serif;
+    animation: gradientBG 5s ease infinite;
+    background-size: 400% 400%;
+}
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background: whitesmoke;
+    text-align: center;
+    opacity: 100%;
+    padding: 20px 25px;
+    box-shadow: 0 0 10px 0 whitesmoke;
+    border-radius: 10px;
+}
+
+form .title{
+    color: #34495E;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 50px;
+    font-family: 'formulaT', serif;
+}
+form label{
+    margin-bottom: 35px;
+}
+form label .fa-solid{
+    font-size: 20px;
+    color: #34495E;
+    margin-right: 10px;
+}
+
+form label input{
+    outline: none;
+    border: none;
+    color: #34495E;
+    background-color: whitesmoke;
+    border-bottom: solid 1px #34495E;
+    padding: 0 5px;
+    font-size: 18px;
+}
+
+form label input::placeholder{
+    color: black;
+    opacity: 30%;
+}
+
+form .link{
+    color: #34495E;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+form button{
+    color: whitesmoke;
+    border: none;
+    font-size: 15px;
+    font-family: 'formula', serif;
+    background: #34495E;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: 0.4s;
+    margin: 20px 60px;
+}
+
+form button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}

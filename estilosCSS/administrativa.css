@@ -1,0 +1,296 @@
+@font-face {
+    font-family: 'formulaT';
+    src: url(../font/Formula1-Bold_web.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'formulaC';
+    src: url(../font/Formula1-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'formula';
+    src: url(../font/Formula1-Regular.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    font-family: 'formula', serif;
+}
+
+.header {
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 50px;
+    font-family: 'formulaT', serif;
+    color: #15151e;
+}
+
+.header b {
+    flex: 1;
+}
+
+.NuevoUsuario, .Registrarse {
+    background-color: #15151e;
+    color: whitesmoke;
+    padding: 10px 20px;
+    transition: 0.4s;
+    font-size: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.NuevoUsuario a, .Registrarse a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.NuevoUsuario:hover:not(.logueado), .Registrarse:hover {
+    background-color: #e10600;
+    cursor: pointer;
+}
+
+.nav {
+    width: 100%;
+    height: 3.5em;
+    font-family: 'formula', serif;
+    background-color: #e10600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+    position: relative;
+}
+
+.barnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.barnav li {
+    margin: 0 1em;
+}
+
+.barnav a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.75;
+}
+
+.barnav a:hover {
+    opacity: 1;
+    transition: opacity 0.35s;
+}
+
+.menu-toggle {
+    display: none;
+    color: whitesmoke;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 2em;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 850px) {
+    .barnav {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top: 3.5em;
+        left: 0;
+        background-color: #e10600;
+        z-index: 1;
+    }
+
+    .barnav li {
+        width: 100%;
+        padding: 0.8em 0;
+        margin: 0;
+    }
+
+    .menu-toggle:checked ~ .barnav {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 100%;
+    transition: all 0.35s;
+}
+
+.main-content {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #3c3f41;
+    padding: 20px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    font-weight: bold; 
+    font-family: 'formula', serif;
+    height: calc(100% - 8.49em);
+}
+
+.option {
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.option {
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 850px) {
+    .main-content {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: 12%;
+        top: 8.59em;
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+.content {
+    margin-left: 220px;
+    padding: 20px;
+    padding-top: 100px; 
+}
+
+.hidden {
+    display: none;
+    font-family: 'formula', serif;
+}
+
+.content h2{
+font-family: 'formula', serif;
+}
+
+
+h4 {
+    margin-bottom: 20px;
+    font-family: 'formulaT', serif;
+    font-size: 40px;
+}
+
+
+.styled-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.styled-table th, .styled-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.styled-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.styled-table tr:nth-of-type(even) {
+    background-color: #f9f9f9;
+}
+
+.styled-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+button i {
+    font-size: 20px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+button:hover i {
+    color: #007bff; /* Cambia el color al pasar el ratón por encima */
+}
+
+button:focus {
+    outline: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+table th, table td {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    table {
+        width: 100%;
+    }
+    th, td {
+        padding: 5px;
+        font-size: 0.9em;
+    }
+}
