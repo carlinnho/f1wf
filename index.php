@@ -93,17 +93,17 @@ if (!isset($_SESSION['logeado']))
             </div>
         </div>
         <div class="corredor corredor2">
-            <img src="imagenesMenu/LewisHamilton.avif" alt="Avatar" class="img">
+            <img src="imagenesCorredores/LandoNorris.avif" alt="Avatar" class="img">
             <div class="container">
-                <h4><b>Lewis Hamilton</b></h4>
-                <p>Mercedes</p>
+                <h4><b>Lando Norris</b></h4>
+                <p>McLaren</p>
             </div>
         </div>
         <div class="corredor corredor3">
-            <img src="imagenesMenu/CharlesLecrec.avif" alt="Avatar" class="img">
+            <img src="imagenesCorredores/GeorgeRussell.avif" alt="Avatar" class="img">
             <div class="container">
-                <h4><b>Charles Lecrerc</b></h4>
-                <p>Ferrari</p>
+                <h4><b>George Russel</b></h4>
+                <p>Mercedes</p>
             </div>
         </div>
     </div>
