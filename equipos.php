@@ -84,7 +84,7 @@ if (!isset($_SESSION['logeado']))
                     <img src="imagenesEquipos/ferrari.jpg" alt="" class="imagen">
                 </div>
                 <div class="flip-card-back">
-                    <p class="title">Scuderia Ferrari</p>
+                    <p class="title">witzi witzi araña</p>
                 </div>
             </div>
         </div>
