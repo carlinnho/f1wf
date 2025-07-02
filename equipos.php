@@ -55,7 +55,7 @@ if (!isset($_SESSION['logeado']))
         <div class="contenido">
         <div class="titulo">CONOCE A NUESTROS EQUIPOS</div>
             <div class="textoMenu">
-                <label>Para esta temporada 2024</label> <br>
+                <label>Para esta temporada 2025</label> <br>
                 <label>on 10 equipos que lucharan</label> <br>
                 <label>por ganar el premio de esta edicion de la Formula 1</label>
             </div>
@@ -84,7 +84,7 @@ if (!isset($_SESSION['logeado']))
                     <img src="imagenesEquipos/ferrari.jpg" alt="" class="imagen">
                 </div>
                 <div class="flip-card-back">
-                    <p class="title">Scuderia Ferrari</p>
+                    <p class="title">Scuderia Ferrari F1</p>
                 </div>
             </div>
         </div>
