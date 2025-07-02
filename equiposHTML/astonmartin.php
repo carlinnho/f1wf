@@ -114,15 +114,15 @@ if (!isset($_SESSION['logeado']))
                 </tr>
                 <tr>
                     <td>Team Chief</td>
-                    <td>Mike Krack</td>
+                    <td>Andy Cowell</td>
                 </tr>
                 <tr>
                     <td>Technical Chief</td>
-                    <td>Dan Fallows</td>
+                    <td>Eric Blandin</td>
                 </tr>
                 <tr>
                     <td>Chassis</td>
-                    <td>AMR24</td>
+                    <td>AMR25</td>
                 </tr>
                 <tr>
                     <td>Power Unit</td>
@@ -147,6 +147,10 @@ if (!isset($_SESSION['logeado']))
                 <tr>
                     <td>Fastest Laps</td>
                     <td>2</td>
+                </tr>
+                <tr>
+                    <td>Podiums</td>
+                    <td>12</td>
                 </tr>
             </table>
         </div>
