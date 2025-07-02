@@ -69,9 +69,9 @@ if (!isset($_SESSION['logeado']))
         </div>
     </div>
     <div class="corredor">
-        <img src="imagenesCorredores/YukiTsunoda.avif" alt="Avatar" class="img">
+        <img src="imagenesCorredores/YukiTsunoda-RedBull" alt="Avatar" class="img">
         <div class="container">
-            <h4><b>Chuki Tsunoda</b></h4>
+            <h4><b>Yuki Tsunoda</b></h4>
             <p>Red Bull Racing</p>
         </div>
     </div>
@@ -134,14 +134,14 @@ if (!isset($_SESSION['logeado']))
     <div class="corredor">
         <img src="imagenesCorredores/Liam Lawson.png" alt="Avatar" class="img">
         <div class="container">
-            <h4><b>Lia Lowson</b></h4>
+            <h4><b>Liam Lawson</b></h4>
             <p>RB</p>
         </div>
     </div>
     <div class="corredor">
         <img src="imagenesCorredores/Isack Hadjar.png" alt="Avatar" class="img">
         <div class="container">
-            <h4><b>Isak Hajar</b></h4>
+            <h4><b>Isack Hadjar</b></h4>
             <p>RB</p>
         </div>
     </div>
@@ -195,7 +195,7 @@ if (!isset($_SESSION['logeado']))
         </div>
     </div>
     <div class="corredor">
-        <img src="imagenesCorredores/CarlosSainz.avif" alt="Avatar" class="img">
+        <img src="imagenesCorredores/Carlos Sainz.png" alt="Avatar" class="img">
         <div class="container">
             <h4><b>Carlos Sainz</b></h4>
             <p>Williams</p>
