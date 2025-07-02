@@ -69,7 +69,7 @@ if (!isset($_SESSION['logeado']))
         </div>
     </div>
     <div class="corredor">
-        <img src="imagenesCorredores/YukiTsunoda-RedBull" alt="Avatar" class="img">
+        <img src="imagenesCorredores/YukiTsunoda-RedBull.png" alt="Avatar" class="img">
         <div class="container">
             <h4><b>Yuki Tsunoda</b></h4>
             <p>Red Bull Racing</p>
