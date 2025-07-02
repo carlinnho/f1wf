@@ -79,6 +79,20 @@ if (!isset($_SESSION['logeado']))
 
 
 
-    <footer class="footer"></footer>
+    <footer class="footer">
+  <div class="footer-container">
+    <!-- Columna 1: Logo -->
+    <div class="footer-col logo-col">
+      <img src="awebo.png" alt="Logo F1" class="footer-logo">
+    </div>
+
+    <!-- Columna 2: Información -->
+    <div class="footer-col info-col">
+      <p>&copy; 2025 Formula 1 Fan Page. Todos los derechos reservados.</p>
+      <p>Proyecto académico sin fines de lucro.</p>
+    </div>
+  </div>
+</footer>
+
 </body>
 </html>
