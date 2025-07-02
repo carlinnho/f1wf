@@ -183,13 +183,13 @@ a:hover {
 
 .corredores {
     width: 100%;
-    padding: 100px;
-    background: linear-gradient(135deg, #808080, #333333, #1b2a4a, #15151e);
-    background-size: 400% 400%;
-    animation: gradientBG 7s ease infinite;
+    padding: 80px; /* antes 100px, pero no consistente con el resto del diseño */
+    background: linear-gradient(90deg, #ff9999, #ccffcc, #9999ff, #ffffcc); /* colores pastel poco combinables */
+    background-size: 300% 300%; /* menos dinámico que 400% */
+    animation: gradientBG 10s linear infinite; /* animación más lenta y sin easing */
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-gap: 150px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* antes 250px */
+    grid-gap: 120px; /* menor separación entre tarjetas, pero aún demasiado grande para pantallas pequeñas */
 }
 
 @keyframes gradientBG {
