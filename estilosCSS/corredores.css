@@ -180,16 +180,19 @@ a:hover {
     margin-bottom: 5vh;
 }
 
-
+/* Cambios mejorados para tener los cards mas luciente */
 .corredores {
     width: 100%;
-    padding: 100px;
-    background: linear-gradient(135deg, #808080, #333333, #1b2a4a, #15151e);
+    padding: 6rem 3rem;
+    background: linear-gradient(135deg, #1e3c72, #2a5298, #00c6ff, #0072ff);
     background-size: 400% 400%;
-    animation: gradientBG 7s ease infinite;
+    animation: gradientBG 8s ease-in-out infinite;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-gap: 150px;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 2.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
 }
 
 @keyframes gradientBG {

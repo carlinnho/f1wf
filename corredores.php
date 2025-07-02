@@ -53,7 +53,7 @@ if (!isset($_SESSION['logeado']))
         <div class="contenido">
         <div class="titulo">NUESTROS CORREDORES</div>
             <div class="textoMenu">
-                <label>Para la temporada 2024 hay un total de 20</label> <br>
+                <label>Para la temporada 2025 hay un total de 20</label> <br>
                 <label>corredores compitiendo por el gran premio</label> <br>
                 <label>¡CONOCE A NUESTROS CORREDORES!</label>
             </div>
@@ -69,9 +69,9 @@ if (!isset($_SESSION['logeado']))
         </div>
     </div>
     <div class="corredor">
-        <img src="imagenesCorredores/ChecoPerez.avif" alt="Avatar" class="img">
+        <img src="imagenesCorredores/YukiTsunoda-RedBull.png" alt="Avatar" class="img">
         <div class="container">
-            <h4><b>Checo Perez</b></h4>
+            <h4><b>Yuki Tsunoda</b></h4>
             <p>Red Bull Racing</p>
         </div>
     </div>
@@ -83,16 +83,16 @@ if (!isset($_SESSION['logeado']))
         </div>
     </div>
     <div class="corredor">
-        <img src="imagenesCorredores/CarlosSainz.avif" alt="Avatar" class="img">
+        <img src="imagenesCorredores/LewisHamilton-Ferrari.png" alt="Avatar" class="img">
         <div class="container">
-            <h4><b>Carlos Sainz</b></h4>
+            <h4><b>Lewis Hamilton</b></h4>
             <p>Ferrari</p>
         </div>
     </div>
     <div class="corredor">
-        <img src="imagenesCorredores/LewisHamilton.avif" alt="Avatar" class="img">
+        <img src="imagenesCorredores/Kimi Antonelli.png" alt="Avatar" class="img">
         <div class="container">
-            <h4><b>Lewis Hamilton</b></h4>
+            <h4><b>Kimi Antonelli</b></h4>
             <p>Mercedes</p>
         </div>
     </div>
@@ -132,16 +132,16 @@ if (!isset($_SESSION['logeado']))
         </div>
     </div>
     <div class="corredor">
-        <img src="imagenesCorredores/YukiTsunoda.avif" alt="Avatar" class="img">
+        <img src="imagenesCorredores/Liam Lawson.png" alt="Avatar" class="img">
         <div class="container">
-            <h4><b>Yuki Tsunoda</b></h4>
+            <h4><b>Liam Lawson</b></h4>
             <p>RB</p>
         </div>
     </div>
     <div class="corredor">
-        <img src="imagenesCorredores/DanielRicciardo.avif" alt="Avatar" class="img">
+        <img src="imagenesCorredores/Isack Hadjar.png" alt="Avatar" class="img">
         <div class="container">
-            <h4><b>Daniel Ricciardo</b></h4>
+            <h4><b>Isack Hadjar</b></h4>
             <p>RB</p>
         </div>
     </div>
@@ -195,9 +195,9 @@ if (!isset($_SESSION['logeado']))
         </div>
     </div>
     <div class="corredor">
-        <img src="imagenesCorredores/LoganSergeant.avif" alt="Avatar" class="img">
+        <img src="imagenesCorredores/Carlos Sainz.png" alt="Avatar" class="img">
         <div class="container">
-            <h4><b>Logan Sargeant</b></h4>
+            <h4><b>Carlos Sainz</b></h4>
             <p>Williams</p>
         </div>
     </div>
