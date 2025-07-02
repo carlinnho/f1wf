@@ -119,7 +119,7 @@ if (!isset($_SESSION['logeado']))
                 </tr>
                 <tr>
                     <td>Chassis</td>
-                    <td>VF-24</td>
+                    <td>VF-25</td>
                 </tr>
                 <tr>
                     <td>Power Unit</td>
@@ -144,6 +144,10 @@ if (!isset($_SESSION['logeado']))
                 <tr>
                     <td>Fastest Laps</td>
                     <td>2</td>
+                </tr>
+                <tr>
+                    <td>Podiums</td>
+                    <td>0</td>
                 </tr>
             </table>
         </div>
