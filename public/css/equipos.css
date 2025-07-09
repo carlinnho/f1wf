@@ -1,0 +1,336 @@
+@font-face {
+    font-family: 'formulaT';
+    src: url(../font/Formula1-Bold_web.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'formulaC';
+    src: url(../font/Formula1-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'formula';
+    src: url(../font/Formula1-Regular.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: whitesmoke;
+}
+
+
+.header {
+  width: 100%;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 50px;
+  font-family: 'formulaT', serif;
+  color: #15151e;
+}
+.header b {
+  flex: 1;
+}
+.NuevoUsuario, .Registrarse {
+  background-color: #15151e;
+  color: whitesmoke;
+  padding: 10px 20px;
+  transition: 0.4s;
+  font-size: 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.NuevoUsuario a, .Registrarse a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.NuevoUsuario:hover:not(.logueado), .Registrarse:hover {
+  background-color: #e10600;
+  cursor: pointer;
+}
+
+.nav {
+  width: 100%;
+  height: 3.5em;
+  font-family: 'formula', serif;
+  background-color: #e10600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1em;
+  position: relative;
+}
+
+.barnav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.barnav li {
+  margin: 0 1em;
+}
+
+.barnav a {
+  color: white;
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+.barnav a:hover {
+  opacity: 1;
+  transition: opacity 0.35s;
+}
+
+.menu-toggle {
+  display: none;
+  color: whitesmoke;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 2em;
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+@media screen and (max-width: 850px) {
+  .barnav {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      top: 3.5em;
+      left: 0;
+      background-color: #e10600;
+      z-index: 1;
+  }
+
+  .barnav li {
+      width: 100%;
+      padding: 0.8em 0;
+      margin: 0;
+  }
+
+  .menu-toggle:checked ~ .barnav {
+      display: flex;
+  }
+
+  .menu-icon {
+      display: block;
+  }
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 100%;
+  transition: all 0.35s;
+}
+
+.presentacion {
+  position: relative;
+  width: 100%;
+  height: 85vh;
+  background-image: url(../images/fondos/fondoEquipos.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: whitesmoke;
+  overflow: hidden;
+}
+
+.presentacion::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55); /* Ajusta el 0.55 según el nivel de oscuridad que desees */
+  z-index: 1;
+}
+
+.presentacion .contenido {
+  position: relative;
+  z-index: 2;
+}
+
+.titulo {
+  font-family: 'formulaT', serif;
+  font-size: 4vw;
+  margin-bottom: 5vh;
+}
+
+.textoMenu {
+  font-family: 'formulaC', serif;
+  font-size: 2vw;
+  margin-bottom: 5vh;
+}
+
+.equipos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5rem;
+  padding: 5rem;
+  background: linear-gradient(135deg, #808080, #333333, #1b2a4a, #15151e);
+  background-size: 400% 400%;
+  animation: gradientBG 7s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+.equipo {
+  width: 290px;
+  height: 354px;
+  text-decoration: none;
+}
+
+.flip-card {
+  width: 100%;
+  height: 100%;
+  perspective: 1000px;
+  font-family: 'formulaT', serif;
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: 900;
+  text-align: center;
+  margin: 0;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 1rem;
+}
+
+.flip-card-front {
+  background: whitesmoke;
+}
+
+.flip-card-back {
+  background: whitesmoke;
+  color: #15151e;
+  transform: rotateY(180deg);
+}
+
+.imagen {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
+
+  
+.footer {
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
+  background-color: #15151e;
+  font-family: 'formulaT', serif;
+  color: white;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+  flex-wrap: wrap;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 250px;
+}
+
+.logo-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo {
+  height: 80px;
+  object-fit: contain;
+}
+
+.info-col {
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .info-col {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+
