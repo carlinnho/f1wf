@@ -8,7 +8,7 @@ if (!isset($_SESSION['logeado']))
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-<link rel="icon" type="image/png" href="../awebo.png">
+<link rel="icon" type="image/png" href="https://drive.google.com/thumbnail?id=1duv5P3V4NFqqMnfiMjl3RoF9-DN_0_4j">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F1WF | Equipos | Red Bull Racing</title>
     <link rel="stylesheet" href="../EquiposCSS/RedBUll.css">
@@ -51,7 +51,7 @@ if (!isset($_SESSION['logeado']))
 
     <section class="portada">
     <div class="logo">
-        <img src="../imagenesEquipos/RedBull.jpg" alt="Kick Sauber Logo" class="logo-img">
+        <img src="https://drive.google.com/thumbnail?id=1E7-qHIJV8rTDLwNdtzHY0s7FWIs3NthQ" alt="Kick Sauber Logo" class="logo-img">
     </div>
     <div class="titulo">
         <label class="titulo-linea">RED BULL</label>
@@ -78,19 +78,19 @@ if (!isset($_SESSION['logeado']))
             <div class="slider">
                 <ul>
                     <li>
-                        <img src="../imagenesferrari/red1.avif" alt="">
+                        <img src="https://drive.google.com/thumbnail?id=1Ud01LzWc2aUnzKPlyTUdZ96Wcou3qCQE" alt="">
                     </li>
                     <li>
-                        <img src="../imagenesferrari/red2.avif" alt="">
+                        <img src="https://drive.google.com/thumbnail?id=1gUITAxY8Prus67d3A6BVbIN0lblIcECS" alt="">
                     </li>
                     <li>
-                        <img src="../imagenesferrari/red3.avif" alt="">
+                        <img src="https://drive.google.com/thumbnail?id=1zauImtrhoBWhRmroGCdZg6dD8xwbYj1t" alt="">
                     </li>
                     <li>
-                        <img src="../imagenesferrari/red4.avif" alt="">
+                        <img src="https://drive.google.com/thumbnail?id=1Y9_vNtu912BnxPbiYmDjk5l6pz3xhiHU" alt="">
                     </li>
                     <li>
-                        <img src="../imagenesferrari/red5.avif" alt="">
+                        <img src="https://drive.google.com/thumbnail?id=1GlVTS1NvksRWUL8A_jMTU9qQXqViH7iT" alt="">
                     </li>
                 </ul>
             </div>
@@ -156,7 +156,7 @@ if (!isset($_SESSION['logeado']))
   <div class="footer-container">
     <!-- Columna 1: Logo -->
     <div class="footer-col logo-col">
-      <img src="awebo.png" alt="Logo F1" class="footer-logo">
+      <img src="https://drive.google.com/thumbnail?id=1duv5P3V4NFqqMnfiMjl3RoF9-DN_0_4j" alt="Logo F1" class="footer-logo">
     </div>
 
     <!-- Columna 2: Información -->
