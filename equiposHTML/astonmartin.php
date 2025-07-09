@@ -9,7 +9,7 @@ if (!isset($_SESSION['logeado']))
 
 <head>
     <meta charset="UTF-8">
-<link rel="icon" type="image/png" href="../awebo.png">
+<link rel="icon" type="image/png" href="https://drive.google.com/thumbnail?id=1duv5P3V4NFqqMnfiMjl3RoF9-DN_0_4j">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F1WF | Equipos | Aston Martin</title>
     <link rel="stylesheet" href="../EquiposCSS/astonmartin.css">
@@ -52,7 +52,7 @@ if (!isset($_SESSION['logeado']))
 
     <section class="portada">
     <div class="logo">
-        <img src="../imagenesEquipos/astonMartin.jpg" alt="Kick Sauber Logo" class="logo-img">
+        <img src="https://drive.google.com/thumbnail?id=1-SijSTYw_eBuQ0AoniIpe2o6aZGqmdWN" alt="Kick Sauber Logo" class="logo-img">
     </div>
     <div class="titulo">
         <label class="titulo-linea">ASTON MARTIN</label>
@@ -82,19 +82,19 @@ if (!isset($_SESSION['logeado']))
             <div class="slider">
                 <ul>
                     <li>
-                        <img src="../imagenesferrari/aston1.avif" alt="">
+                        <img src="https://drive.google.com/thumbnail?id=1dEIIEZ8zrGRJAqBMrV9V2F4yI-jfFB26" alt="">
                     </li>
                     <li>
-                        <img src="../imagenesferrari/aston2.avif" alt="">
+                        <img src="https://drive.google.com/thumbnail?id=1tsU3vGslhihFxPLgLz7KgZd3zrqjINOm" alt="">
                     </li>
                     <li>
-                        <img src="../imagenesferrari/aston3.avif" alt="">
+                        <img src="https://drive.google.com/thumbnail?id=1O4b01NutNp5wu-w6NzWg5UAoGInfjVUX" alt="">
                     </li>
                     <li>
-                        <img src="../imagenesferrari/aston4.avif" alt="">
+                        <img src="https://drive.google.com/thumbnail?id=1gzpUZ4HvigH-sSYOOsrdotFVJPk3f_iZ" alt="">
                     </li>
                     <li>
-                        <img src="../imagenesferrari/aston5.avif" alt="">
+                        <img src="https://drive.google.com/thumbnail?id=1KJd46yjM-dsvCfxrzxm0QLikY64IlF8T" alt="">
                     </li>
                 </ul>
             </div>
@@ -160,7 +160,7 @@ if (!isset($_SESSION['logeado']))
   <div class="footer-container">
     <!-- Columna 1: Logo -->
     <div class="footer-col logo-col">
-      <img src="awebo.png" alt="Logo F1" class="footer-logo">
+      <img src="https://drive.google.com/thumbnail?id=1duv5P3V4NFqqMnfiMjl3RoF9-DN_0_4j" alt="Logo F1" class="footer-logo">
     </div>
 
     <!-- Columna 2: Información -->

@@ -9,7 +9,7 @@ if (!isset($_SESSION['logeado']))
 
 <head>
     <meta charset="UTF-8">
-<link rel="icon" type="image/png" href="../awebo.png">
+<link rel="icon" type="image/png" href="https://drive.google.com/thumbnail?id=1duv5P3V4NFqqMnfiMjl3RoF9-DN_0_4j">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F1WF | Equipos | Ferrari</title>
     <link rel="stylesheet" href="../EquiposCSS/Ferrari.css">
@@ -52,7 +52,7 @@ if (!isset($_SESSION['logeado']))
 
     <section class="portada">
     <div class="logo">
-        <img src="../imagenesEquipos/ferrari.jpg" alt="Ferrari Logo" class="logo-img">
+        <img src="https://drive.google.com/thumbnail?id=1WT-b1xWeETCv9mDnmgbLzbvTm_Igl-6t" alt="Ferrari Logo" class="logo-img">
     </div>
     <div class="titulo">
         <label class="titulo-linea">SCUDERIA</label>
@@ -78,19 +78,19 @@ if (!isset($_SESSION['logeado']))
             <div class="slider">
                 <ul>
                     <li>
-                        <img src="../imagenesferrari/4.avif" alt="">
+                        <img src="https://drive.google.com/thumbnail?id=1_xdqMdkag5Ee1HyT9zZOYN_zyh4W_sLK" alt="">
                     </li>
                     <li>
-                        <img src="../imagenesferrari/1.avif" alt="">
+                        <img src="https://drive.google.com/thumbnail?id=1HrwLdvX4ALPmZV6drplgzJ-EuCRQzd3e" alt="">
                     </li>
                     <li>
-                        <img src="../imagenesferrari/2.avif" alt="">
+                        <img src="https://drive.google.com/thumbnail?id=1n5ItheANWKfStxFB3TOL-fR5T8TClaix" alt="">
                     </li>
                     <li>
-                        <img src="../imagenesferrari/3.avif" alt="">
+                        <img src="https://drive.google.com/thumbnail?id=1TH5IrEIBQm2NsEFsXjB2eArdCb0Q967S" alt="">
                     </li>
                     <li>
-                        <img src="../imagenesferrari/7.avif" alt="">
+                        <img src="https://drive.google.com/thumbnail?id=1x4xwOiX6m5bfV4vqi4nYft7UdVCR8IoQ" alt="">
                     </li>
                 </ul>
             </div>
@@ -156,7 +156,7 @@ if (!isset($_SESSION['logeado']))
   <div class="footer-container">
     <!-- Columna 1: Logo -->
     <div class="footer-col logo-col">
-      <img src="awebo.png" alt="Logo F1" class="footer-logo">
+      <img src="https://drive.google.com/thumbnail?id=1duv5P3V4NFqqMnfiMjl3RoF9-DN_0_4j" alt="Logo F1" class="footer-logo">
     </div>
 
     <!-- Columna 2: Información -->

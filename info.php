@@ -8,7 +8,7 @@ if (!isset($_SESSION['logeado']))
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/png" href="https://drive.google.com/uc?export=view&id=1duv5P3V4NFqqMnfiMjl3RoF9-DN_0_4j">
+    <link rel="icon" type="image/png" href="https://drive.google.com/thumbnail?id=1duv5P3V4NFqqMnfiMjl3RoF9-DN_0_4j">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F1WF | Informacion</title>
     <link rel="stylesheet" href="estilosCSS/equipos.css">
@@ -63,7 +63,7 @@ if (!isset($_SESSION['logeado']))
                     </p>
                 </div>
                 <div class="imagen">
-                    <img src="https://drive.google.com/uc?export=view&id=1OiEtKMmUATuKjtmWYDLdQ2IEDSN7m65q" alt="Corredores históricos" class="imagen">
+                    <img src="https://drive.google.com/thumbnail?id=1OiEtKMmUATuKjtmWYDLdQ2IEDSN7m65q" alt="Corredores históricos" class="imagen">
                 </div>
             </div>
         </section>
@@ -77,7 +77,7 @@ if (!isset($_SESSION['logeado']))
                     </p>
                 </div>
                 <div class="imagen">
-                    <img src="https://drive.google.com/uc?export=view&id=1m1ggD0VeZkdpFNhmPPAbhX7b_jHvDVkj" alt="Circuito de Mónaco" class="imagen">
+                    <img src="https://drive.google.com/thumbnail?id=1m1ggD0VeZkdpFNhmPPAbhX7b_jHvDVkj" alt="Circuito de Mónaco" class="imagen">
                 </div>
             </div>
         </section>
@@ -91,7 +91,7 @@ if (!isset($_SESSION['logeado']))
                     </p>
                 </div>
                 <div class="imagen">
-                    <img src="https://drive.google.com/uc?export=view&id=18hqRJ4IHLhBhUrQoNjT4wS38GE2p3msJ" alt="Circuito histórico" class="imagen">
+                    <img src="https://drive.google.com/thumbnail?id=18hqRJ4IHLhBhUrQoNjT4wS38GE2p3msJ" alt="Circuito histórico" class="imagen">
                 </div>
             </div>
         </section>
@@ -108,7 +108,7 @@ if (!isset($_SESSION['logeado']))
                     </p>
                 </div>
                 <div class="imagen">
-                    <img src="imagenesInformación/MomentosAyrtonSenna.jpg" alt="Momentos Ayrton Senna" class="imagen">
+                    <img src="https://drive.google.com/thumbnail?id=16nLjSkzqFZPmK3LbCXoGaRu-GIWNKYUF" alt="Momentos Ayrton Senna" class="imagen">
                 </div>
             </div>
         </section>
@@ -118,7 +118,7 @@ if (!isset($_SESSION['logeado']))
   <div class="footer-container">
     <!-- Columna 1: Logo -->
     <div class="footer-col logo-col">
-      <img src="https://drive.google.com/uc?export=view&id=1duv5P3V4NFqqMnfiMjl3RoF9-DN_0_4j" alt="Logo F1" class="footer-logo">
+      <img src="https://drive.google.com/thumbnail?id=1duv5P3V4NFqqMnfiMjl3RoF9-DN_0_4j" alt="Logo F1" class="footer-logo">
     </div>
 
     <!-- Columna 2: Información -->

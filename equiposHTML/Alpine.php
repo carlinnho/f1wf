@@ -8,7 +8,7 @@ if (!isset($_SESSION['logeado']))
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-<link rel="icon" type="image/png" href="../awebo.png">
+<link rel="icon" type="image/png" href="https://drive.google.com/thumbnail?id=1duv5P3V4NFqqMnfiMjl3RoF9-DN_0_4j">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F1WF | Equipos | Alpine</title>
     <link rel="stylesheet" href="../EquiposCSS/Alpine.css">
@@ -51,7 +51,7 @@ if (!isset($_SESSION['logeado']))
 
     <section class="portada">
     <div class="logo">
-        <img src="../imagenesEquipos/Alpine.png" alt="Kick Sauber Logo" class="logo-img">
+        <img src="https://drive.google.com/thumbnail?id=1_bIU_4so311BmVSm2puSewEY93Amvzak" alt="Kick Sauber Logo" class="logo-img">
     </div>
     <div class="titulo">
         <label class="titulo-linea">BWT ALPINE</label>
@@ -78,19 +78,19 @@ if (!isset($_SESSION['logeado']))
             <div class="slider">
                 <ul>
                     <li>
-                        <img src="../imagenesferrari/alpine1.avif" alt="">
+                        <img src="https://drive.google.com/thumbnail?id=1c6JGGCPc9ZzjHLSgQf2NP92v_uhMqMhq" alt="">
                     </li>
                     <li>
-                        <img src="../imagenesferrari/alpine2.avif" alt="">
+                        <img src="https://drive.google.com/thumbnail?id=1maY1mTNEvUjRYU2wwdTUvWkoohRs8zh-" alt="">
                     </li>
                     <li>
-                        <img src="../imagenesferrari/alpine3.avif" alt="">
+                        <img src="https://drive.google.com/thumbnail?id=1zdt9Y-IKAn_ZGGFhTJKbprAqLn7qNTg0" alt="">
                     </li>
                     <li>
-                        <img src="../imagenesferrari/alpine4.avif" alt="">
+                        <img src="https://drive.google.com/thumbnail?id=12BWvY0nR3PlRuZ-CefBsi_9V9zsLL9R1" alt="">
                     </li>
                     <li>
-                        <img src="../imagenesferrari/alpine5.avif" alt="">
+                        <img src="https://drive.google.com/thumbnail?id=1bmX42JOovg1oj0ASKRPbhbZtOc9FucC3" alt="">
                     </li>
                 </ul>
             </div>
@@ -156,7 +156,7 @@ if (!isset($_SESSION['logeado']))
   <div class="footer-container">
     <!-- Columna 1: Logo -->
     <div class="footer-col logo-col">
-      <img src="awebo.png" alt="Logo F1" class="footer-logo">
+      <img src="https://drive.google.com/thumbnail?id=1duv5P3V4NFqqMnfiMjl3RoF9-DN_0_4j" alt="Logo F1" class="footer-logo">
     </div>
 
     <!-- Columna 2: Información -->

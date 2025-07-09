@@ -9,7 +9,7 @@ if (!isset($_SESSION['logeado']))
 
 <head>
     <meta charset="UTF-8">
-<link rel="icon" type="image/png" href="../awebo.png">
+<link rel="icon" type="image/png" href="https://drive.google.com/thumbnail?id=1duv5P3V4NFqqMnfiMjl3RoF9-DN_0_4j">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F1WF | Equipos | Kick Sauber</title>
     <link rel="stylesheet" href="../EquiposCSS/Kick.css">
@@ -80,19 +80,19 @@ if (!isset($_SESSION['logeado']))
             <div class="slider">
                 <ul>
                     <li>
-                        <img src="../imagenesferrari/kick1.avif" alt="">
+                        <img src="https://drive.google.com/thumbnail?id=1YUUGcWUTON_FGnvSIG5zp1cGcWBGJFDy" alt="">
                     </li>
                     <li>
-                        <img src="../imagenesferrari/kick2.avif" alt="">
+                        <img src="https://drive.google.com/thumbnail?id=1DSl6Aj58iNU4zirpgvZZrsMPTIOuRAYe" alt="">
                     </li>
                     <li>
-                        <img src="../imagenesferrari/kick3.avif" alt="">
+                        <img src="https://drive.google.com/thumbnail?id=1Y-rjybrBKgUfmgQtPTt-1LKKpEKHH4ds" alt="">
                     </li>
                     <li>
-                        <img src="../imagenesferrari/kick4.avif" alt="">
+                        <img src="https://drive.google.com/thumbnail?id=1l6fl8M6jeW5zuEVCXa_tRwXFI2BIGqBl" alt="">
                     </li>
                     <li>
-                        <img src="../imagenesferrari/kick5.avif" alt="">
+                        <img src="https://drive.google.com/thumbnail?id=1HI1GWMBsM_HTayvuX_-6lfGYazzebEdN" alt="">
                     </li>
                 </ul>
             </div>
@@ -159,7 +159,7 @@ if (!isset($_SESSION['logeado']))
   <div class="footer-container">
     <!-- Columna 1: Logo -->
     <div class="footer-col logo-col">
-      <img src="awebo.png" alt="Logo F1" class="footer-logo">
+      <img src="https://drive.google.com/thumbnail?id=1duv5P3V4NFqqMnfiMjl3RoF9-DN_0_4j" alt="Logo F1" class="footer-logo">
     </div>
 
     <!-- Columna 2: Información -->

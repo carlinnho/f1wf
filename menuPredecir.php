@@ -10,7 +10,7 @@ if (!isset($_SESSION['logeado']))
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-<link rel="icon" type="image/png" href="https://drive.google.com/uc?export=view&id=1duv5P3V4NFqqMnfiMjl3RoF9-DN_0_4j">
+<link rel="icon" type="image/png" href="https://drive.google.com/thumbnail?id=1duv5P3V4NFqqMnfiMjl3RoF9-DN_0_4j">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F1WF | Menu Predecir</title>
     <link rel="stylesheet" href="estilosCSS/menuPredecir.css">
@@ -68,13 +68,13 @@ if (!isset($_SESSION['logeado']))
     <div class="tituloSeccion">LISTO PARA ESCOGER A TUS CORREDORES</div>
     <div class="imgContainer">
         <div class="video video1">
-        <img src="https://drive.google.com/uc?export=view&id=1bvp3Ukh8-8s-aziVtYv7wXZpmaTZTeUe" alt="">
+        <img src="https://drive.google.com/thumbnail?id=1bvp3Ukh8-8s-aziVtYv7wXZpmaTZTeUe" alt="">
         </div>
         <div class="video video2">
-        <img src="https://drive.google.com/uc?export=view&id=19r1L-ReF8dLg_XozWUiCm0Zh1hiYY3dV" alt="">
+        <img src="https://drive.google.com/thumbnail?id=19r1L-ReF8dLg_XozWUiCm0Zh1hiYY3dV" alt="">
         </div>
         <div class="video video3">
-        <img src="https://drive.google.com/uc?export=view&id=169yMzjA4G1qDfwqMopWcrO8nnJgqWev3" alt="">
+        <img src="https://drive.google.com/thumbnail?id=169yMzjA4G1qDfwqMopWcrO8nnJgqWev3" alt="">
         </div>
     </div>
     <a href="PredecirJuego.php" class="botonMomentos">INICIAR JUEGO</a>
@@ -84,7 +84,7 @@ if (!isset($_SESSION['logeado']))
   <div class="footer-container">
     <!-- Columna 1: Logo -->
     <div class="footer-col logo-col">
-      <img src="https://drive.google.com/uc?export=view&id=1duv5P3V4NFqqMnfiMjl3RoF9-DN_0_4j" alt="Logo F1" class="footer-logo">
+      <img src="https://drive.google.com/thumbnail?id=1duv5P3V4NFqqMnfiMjl3RoF9-DN_0_4j" alt="Logo F1" class="footer-logo">
     </div>
 
     <!-- Columna 2: Información -->
