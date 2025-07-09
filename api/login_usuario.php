@@ -13,10 +13,10 @@ if (mysqli_num_rows($validar_login) > 0) {
     $_SESSION['logeado'] = true;
     $_SESSION['idusuario'] = $usuario['ID'];
     $_SESSION['correo'] = $usuario['Correo'];  
-    header("location: ../index.php");
+    header("location: ../public/index.php");
     exit;
 } else {
-    header("location: ../Ingresar.php?error=1");
+    header("location: ../public/pagesIngresar.php?error=1");
     exit;
 }
 ?>
