@@ -5,9 +5,9 @@ include 'conexion.php';
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require '/../../includes/libraries/PHPMailer/src/Exception.php';
-require '/../../includes/libraries/PHPMailer/src/PHPMailer.php';
-require '/../../includes/libraries/PHPMailer/src/SMTP.php';
+require '../includes/libraries/PHPMailer/src/Exception.php';
+require '../includes/libraries/PHPMailer/src/PHPMailer.php';
+require '../includes/libraries/PHPMailer/src/SMTP.php';
 
 if (!isset($_SESSION['logeado']) || !$_SESSION['logeado']) {
     header('Location: ingresar.php');
@@ -164,7 +164,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             ';
 
             $mail->send();
-            echo "<script>alert('{$alerta}'); window.location.href='../PredecirJuego.php';</script>";
+            echo "<script>alert('{$alerta}'); window.location.href='../public/pages/PredecirJuego.php';</script>";
         } catch (Exception $e) {
             echo "Error al enviar el correo: {$mail->ErrorInfo}";
         }

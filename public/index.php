@@ -30,8 +30,8 @@ if (!isset($_SESSION['logeado']))
             <div class="NuevoUsuario logueado">Bienvenido <?php echo htmlspecialchars($_SESSION['usuario']); ?> </div>
             <div class="Registrarse"><a href="../api/cerrar.php">Cerrar</a></div>
         <?php } else { ?>
-            <div class="NuevoUsuario"><a href="registro.php">Registro</a></div>
-            <div class="Registrarse"><a href="Ingresar.php">Ingresar</a></div>
+            <div class="NuevoUsuario"><a href="pages/registro.php">Registro</a></div>
+            <div class="Registrarse"><a href="pages/Ingresar.php">Ingresar</a></div>
         <?php } ?>
     </header>
 

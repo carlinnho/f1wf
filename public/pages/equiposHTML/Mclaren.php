@@ -30,7 +30,7 @@ if (!isset($_SESSION['logeado']))
     <label for="menu-toggle" class="menu-icon">&#9776;</label>
     <ul class="barnav">
     <?php if ($_SESSION['logeado']) { ?>
-        <li><a href="../index.php">HOME</a></li>
+        <li><a href="../../index.php">HOME</a></li>
         <li><a href="../Corredores.php">CORREDORES</a></li>
         <li><a href="../equipos.php">EQUIPOS</a></li>
         <li><a href="../info.php">INFORMACIÓN</a></li>
@@ -38,7 +38,7 @@ if (!isset($_SESSION['logeado']))
         <li><a href="../menuPredecir.php">PREDECIR</a></li>
         <li><a href="../Administrativa.php">MI PERFIL</a></li>
     <?php } else { ?>
-        <li><a href="../index.php">HOME</a></li>
+        <li><a href="../../index.php">HOME</a></li>
         <li><a href="../Corredores.php">CORREDORES</a></li>
         <li><a href="../equipos.php">EQUIPOS</a></li>
         <li><a href="../info.php">INFORMACIÓN</a></li>

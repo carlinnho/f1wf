@@ -1,18 +1,18 @@
 @font-face {
     font-family: 'formulaT';
-    src: url(../font/Formula1-Bold_web.ttf);
+    src: url(../../font/Formula1-Bold_web.ttf);
     font-weight: bold;
     font-style: bold;
 }
 
 @font-face {
     font-family: 'formulaC';
-    src: url(../font/Formula1-Italic.ttf);
+    src: url(../../font/Formula1-Italic.ttf);
 }
 
 @font-face {
     font-family: 'formula';
-    src: url(../font/Formula1-Regular.otf);
+    src: url(../../font/Formula1-Regular.otf);
 }
 
 * {

@@ -5,9 +5,9 @@ include 'conexion.php';
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require '/../../includes/libraries/PHPMailer/src/Exception.php';
-require '/../../includes/libraries/PHPMailer/src/PHPMailer.php';
-require '/../../includes/libraries/PHPMailer/src/SMTP.php';
+require '../includes/libraries/PHPMailer/src/Exception.php';
+require '../includes/libraries/PHPMailer/src/PHPMailer.php';
+require '../includes/libraries/PHPMailer/src/SMTP.php';
 
 $correo = $_POST['Correo'];
 $username = $_POST['Username'];
@@ -22,7 +22,7 @@ if (mysqli_num_rows($verificar_correo) > 0) {
     echo '
         <script>
             alert("Este correo ya esta en uso, intente de nuevo");
-            window.location ="../registro.php";
+            window.location ="../public/pages/registro.php";
         </script>
     ';
     exit();
@@ -35,7 +35,7 @@ if (mysqli_num_rows($verificar_usuario) > 0) {
     echo '
         <script>
             alert("Este usuario ya esta en uso, intente de nuevo");
-            window.location ="../registro.php";
+            window.location ="../public/pages/registro.php";
         </script>
     ';
     exit();
@@ -117,14 +117,14 @@ if ($ejecutar) {
         echo '
             <script>
                 alert("Usuario Creado Exitosamente");
-                window.location ="../index.php";
+                window.location ="../public/index.php";
             </script>
         ';
     } catch (Exception $e) {
         echo '
             <script>
                 alert("Usuario almacenado exitosamente pero no se pudo enviar el correo de bienvenida. Error: ' . $mail->ErrorInfo . '");
-                window.location ="../index.php";
+                window.location ="../public/index.php";
             </script>
         ';
     }
@@ -132,7 +132,7 @@ if ($ejecutar) {
     echo '
         <script>
             alert("Intentelo nuevamente");
-            window.location ="../registro.php";
+            window.location ="../public/pages/registro.php";
         </script>
     ';
 }
