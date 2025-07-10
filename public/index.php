@@ -70,16 +70,82 @@ if (!isset($_SESSION['logeado']))
         </div>
     </section>
 
-    <section class="información">
-        <div class="cuadroBlanco">
-            <div class="cuadroTitulo">¿Qué es la Formula 1?</div>
-            <div class="cuadroTexto">La Fórmula 1 es la máxima categoría del automovilismo mundial, donde los mejores
-                pilotos compiten en circuitos internacionales con autos de alta tecnología, velocidad y estrategia para
-                ganar el campeonato mundial.</div>
-            <a href="info.php" class="botonInformación">Conoce más aqui</a>
+    <section class="seasonSection">
+    <div class="season-tabs">
+    <div class="season-header">
+      <h1>2025 SEASON</h1>
+      <div class="tab-buttons">
+        <div class="tab-btn active" onclick="showTab('drivers')">DRIVERS</div>
+        <div class="tab-btn" onclick="showTab('teams')">TEAMS</div>
+      </div>
+    </div>
 
-        </div>
-    </section>
+    <div class="container">
+      <div id="drivers" class="tab-content active">
+        <table>
+          <thead>
+            <tr>
+              <th>POS.</th>
+              <th>DRIVER</th>
+              <th>TEAM</th>
+              <th>PTS.</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Oscar Piastri</td>
+              <td>McLaren</td>
+              <td>234</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Lando Norris</td>
+              <td>McLaren</td>
+              <td>226</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Max Verstappen</td>
+              <td>Red Bull Racing</td>
+              <td>165</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div id="teams" class="tab-content">
+        <table>
+          <thead>
+            <tr>
+              <th>POS.</th>
+              <th>TEAM</th>
+              <th>PTS.</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>McLaren</td>
+              <td>460</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Ferrari</td>
+              <td>222</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Mercedes</td>
+              <td>210</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
 
     <section class="MejoresCorredores">
     <div class="background"></div>
@@ -143,6 +209,17 @@ if (!isset($_SESSION['logeado']))
     </div>
   </div>
 </footer>
+    <script>
+    function showTab(tabId) {
+        
+        const tabs = document.querySelectorAll('.tab-content');
+        tabs.forEach(tab => tab.classList.remove('active'));
+        const buttons = document.querySelectorAll('.tab-btn');
+        buttons.forEach(btn => btn.classList.remove('active'));
+        document.getElementById(tabId).classList.add('active');
+        event.currentTarget.classList.add('active');
+    }
+    </script>
 
         
     <script>
