@@ -8,7 +8,7 @@ if (!isset($_SESSION['logeado']))
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-<link rel="icon" type="image/png" href="https://drive.google.com/thumbnail?id=1duv5P3V4NFqqMnfiMjl3RoF9-DN_0_4j">
+<link rel="icon" type="image/png" href="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153556/awebo_leqzak.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F1WF | Equipos | Red Bull Racing</title>
     <link rel="stylesheet" href="../../css/EquiposCSS/RedBUll.css">
@@ -51,7 +51,7 @@ if (!isset($_SESSION['logeado']))
 
     <section class="portada">
     <div class="logo">
-        <img src="https://drive.google.com/thumbnail?id=1E7-qHIJV8rTDLwNdtzHY0s7FWIs3NthQ" alt="Kick Sauber Logo" class="logo-img">
+        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153582/RedBull_yamtmb.png" alt="RedBull Logo" class="logo-img">
     </div>
     <div class="titulo">
         <label class="titulo-linea">RED BULL</label>
@@ -78,19 +78,19 @@ if (!isset($_SESSION['logeado']))
             <div class="slider">
                 <ul>
                     <li>
-                        <img src="https://drive.google.com/thumbnail?id=1Ud01LzWc2aUnzKPlyTUdZ96Wcou3qCQE" alt="">
+                        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153588/red1_w579b5.avif" alt="">
                     </li>
                     <li>
-                        <img src="https://drive.google.com/thumbnail?id=1gUITAxY8Prus67d3A6BVbIN0lblIcECS" alt="">
+                        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153589/red2_pqlzqw.avif" alt="">
                     </li>
                     <li>
-                        <img src="https://drive.google.com/thumbnail?id=1zauImtrhoBWhRmroGCdZg6dD8xwbYj1t" alt="">
+                        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153589/red3_swrnzb.avif" alt="">
                     </li>
                     <li>
-                        <img src="https://drive.google.com/thumbnail?id=1Y9_vNtu912BnxPbiYmDjk5l6pz3xhiHU" alt="">
+                        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153589/red4_gb2q2y.avif" alt="">
                     </li>
                     <li>
-                        <img src="https://drive.google.com/thumbnail?id=1GlVTS1NvksRWUL8A_jMTU9qQXqViH7iT" alt="">
+                        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153589/red5_fiedri.avif" alt="">
                     </li>
                 </ul>
             </div>
@@ -156,7 +156,7 @@ if (!isset($_SESSION['logeado']))
   <div class="footer-container">
     <!-- Columna 1: Logo -->
     <div class="footer-col logo-col">
-      <img src="https://drive.google.com/thumbnail?id=1duv5P3V4NFqqMnfiMjl3RoF9-DN_0_4j" alt="Logo F1" class="footer-logo">
+      <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153556/awebo_leqzak.png" alt="Logo F1" class="footer-logo">
     </div>
 
     <!-- Columna 2: Información -->

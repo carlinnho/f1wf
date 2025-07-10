@@ -9,7 +9,7 @@ if (!isset($_SESSION['logeado']))
 
 <head>
   <meta charset="UTF-8">
-  <link rel="icon" type="image/png" href="https://drive.google.com/thumbnail?id=1duv5P3V4NFqqMnfiMjl3RoF9-DN_0_4j">
+  <link rel="icon" type="image/png" href="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153556/awebo_leqzak.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>F1WF | Inicio</title>
   <link rel="stylesheet" href="css/index.css">
@@ -152,21 +152,21 @@ if (!isset($_SESSION['logeado']))
     <div class="tituloCorredores">CONOCE A NUESTROS MEJORES CORREDORES</div>
     <div class="corredoresContainer">
       <div class="corredor corredor1">
-        <img src="https://drive.google.com/thumbnail?id=1zRFaLns2XMVPy4N379JdAwE9RdLI-eqn" alt="Avatar" class="img">
+        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153593/MaxVertappen_d4l3ik.avif" alt="Max Verstappen" class="img">
         <div class="container">
           <h4><b>Max Vestappen</b></h4>
           <p>Red bull Racing</p>
         </div>
       </div>
       <div class="corredor corredor2">
-        <img src="https://drive.google.com/thumbnail?id=1ZglNC3LP223cwLgcuYHZEMf-p2dvdNgP" alt="Avatar" class="img">
+        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153580/LandoNorris_zwtf9e.avif" alt="Lando Norris" class="img">
         <div class="container">
           <h4><b>Lando Norris</b></h4>
           <p>McLaren</p>
         </div>
       </div>
       <div class="corredor corredor3">
-        <img src="https://drive.google.com/thumbnail?id=1wDa4u7tDs5QNRb1dEE8FAx0gSfO3LMoy" alt="Avatar" class="img">
+        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153579/GeorgeRussell_qs9mzq.avif" alt="George Russell" class="img">
         <div class="container">
           <h4><b>George Russel</b></h4>
           <p>Mercedes</p>
@@ -199,7 +199,7 @@ if (!isset($_SESSION['logeado']))
     <div class="footer-container">
       <!-- Columna 1: Logo -->
       <div class="footer-col logo-col">
-        <img src="https://drive.google.com/thumbnail?id=1duv5P3V4NFqqMnfiMjl3RoF9-DN_0_4j" alt="Logo F1" class="footer-logo">
+        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153556/awebo_leqzak.png" alt="Logo F1" class="footer-logo">
       </div>
 
       <!-- Columna 2: Información -->

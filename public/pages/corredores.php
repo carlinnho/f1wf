@@ -8,7 +8,7 @@ if (!isset($_SESSION['logeado']))
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-<link rel="icon" type="image/png" href="https://drive.google.com/thumbnail?id=1duv5P3V4NFqqMnfiMjl3RoF9-DN_0_4j">
+<link rel="icon" type="image/png" href="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153556/awebo_leqzak.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F1WF | Corredores</title>
     <link rel="stylesheet" href="../css/corredores.css">
@@ -62,140 +62,140 @@ if (!isset($_SESSION['logeado']))
 
     <section class="corredores">
     <div class="corredor">
-        <img src="https://drive.google.com/thumbnail?id=1jcLVDGlxPSfSLS4LVaBjtRR2_Rkzrody" alt="Avatar" class="img">
+        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752165074/MaxVerstappen_sw1jce.avif" alt="Avatar" class="img">
         <div class="container">
             <h4><b>Max Vestappen</b></h4>
             <p>Red bull Racing</p>
         </div>
     </div>
     <div class="corredor">
-        <img src="https://drive.google.com/thumbnail?id=1GKJwLcpd0JbltTNrC-sjJf0KM8sJeo6M" alt="Avatar" class="img">
+        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752165079/YukiTsunoda-RedBull_xbjqqj.png" alt="Avatar" class="img">
         <div class="container">
             <h4><b>Yuki Tsunoda</b></h4>
             <p>Red Bull Racing</p>
         </div>
     </div>
     <div class="corredor">
-        <img src="https://drive.google.com/thumbnail?id=11e8rqrv8O4MmfbPDU8Ayli3lBQ6nNzq4" alt="Avatar" class="img">
+        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752165082/charlesLLecrec_egnsgy.avif" alt="Avatar" class="img">
         <div class="container">
             <h4><b>Charles Lecrerc</b></h4>
             <p>Ferrari</p>
         </div>
     </div>
     <div class="corredor">
-        <img src="https://drive.google.com/thumbnail?id=1zYkgEK3YN9tB2dPqjNE0bmYbhtrjx2Hu" alt="Avatar" class="img">
+        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752165072/LewisHamilton-Ferrari_xv2o5m.png" alt="Avatar" class="img">
         <div class="container">
             <h4><b>Lewis Hamilton</b></h4>
             <p>Ferrari</p>
         </div>
     </div>
     <div class="corredor">
-        <img src="https://drive.google.com/thumbnail?id=1I0yXFD7RZSriwJ91bwQfBFjkWsyqUt6Q" alt="Avatar" class="img">
+        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752165070/Kimi_Antonelli_yeruf2.png" alt="Avatar" class="img">
         <div class="container">
             <h4><b>Kimi Antonelli</b></h4>
             <p>Mercedes</p>
         </div>
     </div>
     <div class="corredor">
-        <img src="https://drive.google.com/thumbnail?id=1wDa4u7tDs5QNRb1dEE8FAx0gSfO3LMoy" alt="Avatar" class="img">
+        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752165087/GeorgeRussell_joqhmy.avif" alt="Avatar" class="img">
         <div class="container">
             <h4><b>George Russell</b></h4>
             <p>Mercedes</p>
         </div>
     </div>
     <div class="corredor">
-        <img src="https://drive.google.com/thumbnail?id=1ox05DfpC-l82oS6aZnKWV-qWuqUnN8Yi" alt="Avatar" class="img">
+        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752165086/FernandoAlonso_smfxey.avif" alt="Avatar" class="img">
         <div class="container">
             <h4><b>Fernando Alonso</b></h4>
             <p>Aston Martin</p>
         </div>
     </div>
     <div class="corredor">
-        <img src="https://drive.google.com/thumbnail?id=1MN-69UUo_JmUHNx9hBaQS0YvkNxHpegb" alt="Avatar" class="img">
+        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752165070/LanceStroll_d1rhka.avif" alt="Avatar" class="img">
         <div class="container">
             <h4><b>Lance Stroll</b></h4>
             <p>Aston Martin</p>
         </div>
     </div>
     <div class="corredor">
-        <img src="https://drive.google.com/thumbnail?id=1-dinDOQBRWS3UI2xYo8tjuMmJHCGtjaT" alt="Avatar" class="img">
+        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752165076/OscarPiastri_g2bc2j.avif" alt="Avatar" class="img">
         <div class="container">
             <h4><b>Oscar Piastri</b></h4>
             <p>McLaren</p>
         </div>
     </div>
     <div class="corredor">
-        <img src="https://drive.google.com/thumbnail?id=1ZglNC3LP223cwLgcuYHZEMf-p2dvdNgP" alt="Avatar" class="img">
+        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752165071/LandoNorris_sr0q5g.avif" alt="Avatar" class="img">
         <div class="container">
             <h4><b>Lando Norris</b></h4>
             <p>McLaren</p>
         </div>
     </div>
     <div class="corredor">
-        <img src="https://drive.google.com/thumbnail?id=1vONyRf-yrU9lyxHKvQZbnf12oH5epmJZ" alt="Avatar" class="img">
+        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752165073/Liam_Lawson_pyke25.png" alt="Avatar" class="img">
         <div class="container">
             <h4><b>Liam Lawson</b></h4>
             <p>RB</p>
         </div>
     </div>
     <div class="corredor">
-        <img src="https://drive.google.com/thumbnail?id=1oFFf7Gmtw_8UepWVjcNf9uoF_X5k2j2B" alt="Avatar" class="img">
+        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752165069/Isack_Hadjar_zrf7dd.png" alt="Avatar" class="img">
         <div class="container">
             <h4><b>Isack Hadjar</b></h4>
             <p>RB</p>
         </div>
     </div>
     <div class="corredor">
-        <img src="https://drive.google.com/thumbnail?id=1zR0yFRGvlXCXoYoyzBhImpQO6_QXIus_" alt="Avatar" class="img">
+        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752165076/PierreGasly_cocdia.avif" alt="Avatar" class="img">
         <div class="container">
             <h4><b>Pierre Gasly</b></h4>
             <p>Alpine</p>
         </div>
     </div>
     <div class="corredor">
-        <img src="https://drive.google.com/thumbnail?id=15c0_efnjQX7C_9g3eSn7Mra8-GCTTbJY" alt="Avatar" class="img">
+        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752165085/EstebanOcon_ipfrcl.avif" alt="Avatar" class="img">
         <div class="container">
             <h4><b>Esteban Ocon</b></h4>
             <p>Alpine</p>
         </div>
     </div>
     <div class="corredor">
-        <img src="https://drive.google.com/thumbnail?id=1SS6C-1wH-a6AGciykr0DDzRT9WUtAJN5" alt="Avatar" class="img">
+        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752165075/NicoHulkenberg_bousoe.avif" alt="Avatar" class="img">
         <div class="container">
             <h4><b>Nico Hulkenberg</b></h4>
             <p>Haas</p>
         </div>
     </div>
     <div class="corredor">
-        <img src="https://drive.google.com/thumbnail?id=16aEfYh4OhGFXpWDpKlaE1DKYzVMCwlR6" alt="Avatar" class="img">
+        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752165070/kevinMagnusson_oguadz.avif" alt="Avatar" class="img">
         <div class="container">
             <h4><b>Kevin Magnussen</b></h4>
             <p>Haas</p>
         </div>
     </div>
     <div class="corredor">
-        <img src="https://drive.google.com/thumbnail?id=1J-P15CUwjYJ1E6-6SXJgHp_USJ-zq6R4" alt="Avatar" class="img">
+        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752165079/Zhou_ocj4hf.avif" alt="Avatar" class="img">
         <div class="container">
             <h4><b>Zhou Guanyu</b></h4>
             <p>Alfa Romeo</p>
         </div>
     </div>
     <div class="corredor">
-        <img src="https://drive.google.com/thumbnail?id=1JJCjIyryB3R3kHgy6Y-yvLfy4QmoEZsE" alt="Avatar" class="img">
+        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752165077/ValtteriBottas_dccrxy.avif" alt="Avatar" class="img">
         <div class="container">
             <h4><b>Valtteri Bottas</b></h4>
             <p>Alfa Romeo</p>
         </div>
     </div>
     <div class="corredor">
-        <img src="https://drive.google.com/thumbnail?id=1mGKtLunI7C3P0jgJR-lbjpBzSNdj_igf" alt="Avatar" class="img">
+        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752165080/AlexanderAlbon_sv3kga.avif" alt="Avatar" class="img">
         <div class="container">
             <h4><b>Alexander Albon</b></h4>
             <p>Williams</p>
         </div>
     </div>
     <div class="corredor">
-        <img src="https://drive.google.com/thumbnail?id=1HRsYq5P5WEEYqEQTYYD_hV2p-2xYH0Rz" alt="Avatar" class="img">
+        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752165081/Carlos_Sainz_n9mro9.png" alt="Avatar" class="img">
         <div class="container">
             <h4><b>Carlos Sainz</b></h4>
             <p>Williams</p>
@@ -209,7 +209,7 @@ if (!isset($_SESSION['logeado']))
   <div class="footer-container">
     <!-- Columna 1: Logo -->
     <div class="footer-col logo-col">
-      <img src="https://drive.google.com/thumbnail?id=1duv5P3V4NFqqMnfiMjl3RoF9-DN_0_4j" alt="Logo F1" class="footer-logo">
+      <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153556/awebo_leqzak.png" alt="Logo F1" class="footer-logo">
     </div>
 
     <!-- Columna 2: Información -->

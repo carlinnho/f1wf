@@ -9,7 +9,7 @@ if (!isset($_SESSION['logeado']))
 
 <head>
     <meta charset="UTF-8">
-<link rel="icon" type="image/png" href="https://drive.google.com/thumbnail?id=1duv5P3V4NFqqMnfiMjl3RoF9-DN_0_4j">
+<link rel="icon" type="image/png" href="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153556/awebo_leqzak.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F1WF | Equipos | Kick Sauber</title>
     <link rel="stylesheet" href="../../css/EquiposCSS/Kick.css">
@@ -52,7 +52,7 @@ if (!isset($_SESSION['logeado']))
 
     <section class="portada">
     <div class="logo">
-        <img src="../imagenesEquipos/KickSauber.png" alt="Kick Sauber Logo" class="logo-img">
+        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153582/KickSauber_hvkwqk.avif" alt="Kick Sauber Logo" class="logo-img">
     </div>
     <div class="titulo">
         <label class="titulo-linea">Stake F1</label>
@@ -80,19 +80,19 @@ if (!isset($_SESSION['logeado']))
             <div class="slider">
                 <ul>
                     <li>
-                        <img src="https://drive.google.com/thumbnail?id=1YUUGcWUTON_FGnvSIG5zp1cGcWBGJFDy" alt="">
+                        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153586/kick1_kcuwow.avif" alt="">
                     </li>
                     <li>
-                        <img src="https://drive.google.com/thumbnail?id=1DSl6Aj58iNU4zirpgvZZrsMPTIOuRAYe" alt="">
+                        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153586/kick2_ldmm1f.avif" alt="">
                     </li>
                     <li>
-                        <img src="https://drive.google.com/thumbnail?id=1Y-rjybrBKgUfmgQtPTt-1LKKpEKHH4ds" alt="">
+                        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153586/kick3_k4bfgb.avif" alt="">
                     </li>
                     <li>
-                        <img src="https://drive.google.com/thumbnail?id=1l6fl8M6jeW5zuEVCXa_tRwXFI2BIGqBl" alt="">
+                        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153586/kick4_l2opyn.avif" alt="">
                     </li>
                     <li>
-                        <img src="https://drive.google.com/thumbnail?id=1HI1GWMBsM_HTayvuX_-6lfGYazzebEdN" alt="">
+                        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153586/kick5_nipekz.avif" alt="">
                     </li>
                 </ul>
             </div>
@@ -159,7 +159,7 @@ if (!isset($_SESSION['logeado']))
   <div class="footer-container">
     <!-- Columna 1: Logo -->
     <div class="footer-col logo-col">
-      <img src="https://drive.google.com/thumbnail?id=1duv5P3V4NFqqMnfiMjl3RoF9-DN_0_4j" alt="Logo F1" class="footer-logo">
+      <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153556/awebo_leqzak.png" alt="Logo F1" class="footer-logo">
     </div>
 
     <!-- Columna 2: Información -->
