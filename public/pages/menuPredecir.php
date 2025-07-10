@@ -66,17 +66,6 @@ if (!isset($_SESSION['logeado']))
     <section class="Seccion">
     <div class="fondito"></div>
     <div class="tituloSeccion">LISTO PARA ESCOGER A TUS CORREDORES</div>
-    <div class="imgContainer">
-        <div class="video video1">
-        <img src="https://drive.google.com/thumbnail?id=1bvp3Ukh8-8s-aziVtYv7wXZpmaTZTeUe" alt="">
-        </div>
-        <div class="video video2">
-        <img src="https://drive.google.com/thumbnail?id=19r1L-ReF8dLg_XozWUiCm0Zh1hiYY3dV" alt="">
-        </div>
-        <div class="video video3">
-        <img src="https://drive.google.com/thumbnail?id=169yMzjA4G1qDfwqMopWcrO8nnJgqWev3" alt="">
-        </div>
-    </div>
     <a href="PredecirJuego.php" class="botonMomentos">INICIAR JUEGO</a>
     </section>
 

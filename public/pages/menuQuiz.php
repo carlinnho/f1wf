@@ -63,17 +63,6 @@ if (!isset($_SESSION['logeado']))
     <section class="Seccion">
     <div class="fondito"></div>
     <div class="tituloSeccion">LISTO PARA INICIAR EL QUIZ?</div>
-    <div class="imgContainer">
-        <div class="video video1">
-        <img src="https://drive.google.com/thumbnail?id=1grDt8FC7OVtS7Szng9CN0nAlQLnKreyL" alt="">
-        </div>
-        <div class="video video2">
-        <img src="https://drive.google.com/thumbnail?id=1pi-Gb_e3ekcn9g3yDpF2UA9khRsfgcU0" alt="">
-        </div>
-        <div class="video video3">
-        <img src="https://drive.google.com/thumbnail?id=1Wtp4jUViqg0V2-7Bx3fdcUu8fis-9-ga" alt="">
-        </div>
-    </div>
     <a href="QuizJuego.php" class="botonMomentos">INICIAR QUIZ</a>
     </section>
 
