@@ -9,7 +9,7 @@ if (!isset($_SESSION['logeado']))
 
 <head>
     <meta charset="UTF-8">
-<link rel="icon" type="image/png" href="https://drive.google.com/thumbnail?id=1duv5P3V4NFqqMnfiMjl3RoF9-DN_0_4j">
+<link rel="icon" type="image/png" href="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153556/awebo_leqzak.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F1WF | Equipos | Hass</title>
     <link rel="stylesheet" href="../../css/EquiposCSS/haas.css">
@@ -52,7 +52,7 @@ if (!isset($_SESSION['logeado']))
 
     <section class="portada">
     <div class="logo">
-        <img src="../imagenesEquipos/Haas.png" alt="Kick Sauber Logo" class="logo-img">
+        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153582/Haas_ak3duf.png" alt="Haas Logo" class="logo-img">
     </div>
     <div class="titulo">
         <label class="titulo-linea">MONEYGRAM</label>
@@ -79,19 +79,19 @@ if (!isset($_SESSION['logeado']))
             <div class="slider">
                 <ul>
                     <li>
-                        <img src="https://drive.google.com/thumbnail?id=1A3gjd1nHPfzJ3_APmbZoIkNft_fUaL0L" alt="">
+                        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153585/haas1_s51uvx.avif" alt="">
                     </li>
                     <li>
-                        <img src="https://drive.google.com/thumbnail?id=1CNt2JUusk3KJDaYqm16wluxaj-XGUdGD" alt="">
+                        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153585/haas2_simhz4.avif" alt="">
                     </li>
                     <li>
-                        <img src="https://drive.google.com/thumbnail?id=1oitwJveThpGqm8hOikDHQmYhvAZn70H6" alt="">
+                        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153585/haas3_tnwx6u.avif" alt="">
                     </li>
                     <li>
-                        <img src="https://drive.google.com/thumbnail?id=1SIictlvLY-8-FZxAuRy1-GpyyxdXsnAn" alt="">
+                        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153585/haas4_zd4v5t.avif" alt="">
                     </li>
                     <li>
-                        <img src="https://drive.google.com/thumbnail?id=1etbW1KF7eU-bdq_6Izqq7jrSabED8aCr" alt="">
+                        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153585/haas5_lwcsu0.avif" alt="">
                     </li>
                 </ul>
             </div>
@@ -157,7 +157,7 @@ if (!isset($_SESSION['logeado']))
   <div class="footer-container">
     <!-- Columna 1: Logo -->
     <div class="footer-col logo-col">
-      <img src="https://drive.google.com/thumbnail?id=1duv5P3V4NFqqMnfiMjl3RoF9-DN_0_4j" alt="Logo F1" class="footer-logo">
+      <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153556/awebo_leqzak.png" alt="Logo F1" class="footer-logo">
     </div>
 
     <!-- Columna 2: Información -->

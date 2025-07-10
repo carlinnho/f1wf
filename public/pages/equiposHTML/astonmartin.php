@@ -9,7 +9,7 @@ if (!isset($_SESSION['logeado']))
 
 <head>
     <meta charset="UTF-8">
-<link rel="icon" type="image/png" href="https://drive.google.com/thumbnail?id=1duv5P3V4NFqqMnfiMjl3RoF9-DN_0_4j">
+<link rel="icon" type="image/png" href="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153556/awebo_leqzak.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F1WF | Equipos | Aston Martin</title>
     <link rel="stylesheet" href="../../css/EquiposCSS/astonmartin.css">
@@ -52,7 +52,7 @@ if (!isset($_SESSION['logeado']))
 
     <section class="portada">
     <div class="logo">
-        <img src="https://drive.google.com/thumbnail?id=1-SijSTYw_eBuQ0AoniIpe2o6aZGqmdWN" alt="Kick Sauber Logo" class="logo-img">
+        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153581/astonMartin_czzl2z.png" alt="Aston Martin Logo" class="logo-img">
     </div>
     <div class="titulo">
         <label class="titulo-linea">ASTON MARTIN</label>
@@ -82,19 +82,19 @@ if (!isset($_SESSION['logeado']))
             <div class="slider">
                 <ul>
                     <li>
-                        <img src="https://drive.google.com/thumbnail?id=1dEIIEZ8zrGRJAqBMrV9V2F4yI-jfFB26" alt="">
+                        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153584/aston1_hdlx4t.avif" alt="">
                     </li>
                     <li>
-                        <img src="https://drive.google.com/thumbnail?id=1tsU3vGslhihFxPLgLz7KgZd3zrqjINOm" alt="">
+                        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153584/aston2_wsh1de.avif" alt="">
                     </li>
                     <li>
-                        <img src="https://drive.google.com/thumbnail?id=1O4b01NutNp5wu-w6NzWg5UAoGInfjVUX" alt="">
+                        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153584/aston3_ytphcc.avif" alt="">
                     </li>
                     <li>
-                        <img src="https://drive.google.com/thumbnail?id=1gzpUZ4HvigH-sSYOOsrdotFVJPk3f_iZ" alt="">
+                        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153584/aston4_wfzyjk.avif" alt="">
                     </li>
                     <li>
-                        <img src="https://drive.google.com/thumbnail?id=1KJd46yjM-dsvCfxrzxm0QLikY64IlF8T" alt="">
+                        <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153585/aston5_nd0yua.avif" alt="">
                     </li>
                 </ul>
             </div>
@@ -160,7 +160,7 @@ if (!isset($_SESSION['logeado']))
   <div class="footer-container">
     <!-- Columna 1: Logo -->
     <div class="footer-col logo-col">
-      <img src="https://drive.google.com/thumbnail?id=1duv5P3V4NFqqMnfiMjl3RoF9-DN_0_4j" alt="Logo F1" class="footer-logo">
+      <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153556/awebo_leqzak.png" alt="Logo F1" class="footer-logo">
     </div>
 
     <!-- Columna 2: Información -->

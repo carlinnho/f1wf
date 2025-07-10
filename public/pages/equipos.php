@@ -10,7 +10,7 @@ if (!isset($_SESSION['logeado']))
 
 <head>
     <meta charset="UTF-8">
-<link rel="icon" type="image/png" href="https://drive.google.com/thumbnail?id=1duv5P3V4NFqqMnfiMjl3RoF9-DN_0_4j">
+<link rel="icon" type="image/png" href="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153556/awebo_leqzak.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F1WF | Equipos</title>
     <link rel="stylesheet" href="../css/equipos.css">
@@ -67,7 +67,7 @@ if (!isset($_SESSION['logeado']))
         <div class="flip-card">
             <div class="flip-card-inner">
                 <div class="flip-card-front">
-                    <img src="https://drive.google.com/thumbnail?id=1ctTpp_8Z7pj3zOt-nXfRqaZ-NXm1Sqca">
+                    <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153582/KickSauber_hvkwqk.avif" alt="" class="imagen">
                 </div>
                 <div class="flip-card-back">
                     <p class="title">Stake F1 Team Kick Sauber</p>
@@ -81,7 +81,7 @@ if (!isset($_SESSION['logeado']))
         <div class="flip-card">
             <div class="flip-card-inner">
                 <div class="flip-card-front">
-                    <img src="https://drive.google.com/thumbnail?id=1WT-b1xWeETCv9mDnmgbLzbvTm_Igl-6t" alt="" class="imagen">
+                    <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153581/ferrari_jdguuv.png" alt="" class="imagen">
                 </div>
                 <div class="flip-card-back">
                     <p class="title">Scuderia Ferrari F1</p>
@@ -94,7 +94,7 @@ if (!isset($_SESSION['logeado']))
         <div class="flip-card">
             <div class="flip-card-inner">
                 <div class="flip-card-front">
-                    <img src="https://drive.google.com/thumbnail?id=1AWVraDSTgg40QzFfq_uRwPeJQkfS-nkw" alt="" class="imagen">
+                    <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153582/McLaren_tpclmm.png" alt="" class="imagen">
                 </div>
                 <div class="flip-card-back">
                     <p class="title">McLaren F1 Team</p>
@@ -106,7 +106,7 @@ if (!isset($_SESSION['logeado']))
         <div class="flip-card">
             <div class="flip-card-inner">
                 <div class="flip-card-front">
-                    <img src="https://drive.google.com/thumbnail?id=1_bIU_4so311BmVSm2puSewEY93Amvzak" alt="" class="imagen">
+                    <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153581/Alpine_flv0tc.png" alt="" class="imagen">
                 </div>
                 <div class="flip-card-back">
                     <p class="title">BWT Alpine F1 Team</p>
@@ -118,7 +118,7 @@ if (!isset($_SESSION['logeado']))
         <div class="flip-card">
             <div class="flip-card-inner">
                 <div class="flip-card-front">
-                    <img src="https://drive.google.com/thumbnail?id=1koSo2M1Xv5UP4OHBfsPUxaZZkohCTXXq" alt="" class="imagen">
+                    <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153582/Mercedes_pap0o4.png" alt="" class="imagen">
                 </div>
                 <div class="flip-card-back">
                     <p class="title">Mercedes-AMG PETRONAS F1 Team</p>
@@ -130,7 +130,7 @@ if (!isset($_SESSION['logeado']))
         <div class="flip-card">
             <div class="flip-card-inner">
                 <div class="flip-card-front">
-                    <img src="https://drive.google.com/thumbnail?id=13fdM8V_eOygEymJQFuLe9nG999fe0Vly" alt="" class="imagen">
+                    <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153582/Haas_ak3duf.png" alt="" class="imagen">
                 </div>
                 <div class="flip-card-back">
                     <p class="title">MoneyGram Haas F1 Team</p>
@@ -142,7 +142,7 @@ if (!isset($_SESSION['logeado']))
         <div class="flip-card">
             <div class="flip-card-inner">
                 <div class="flip-card-front">
-                    <img src="https://drive.google.com/thumbnail?id=1lj1FurMhoyXWK4vbs63yORB7M1XJpLZG" alt="" class="imagen">
+                    <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153582/Williams_vtrxx9.png" alt="" class="imagen">
                 </div>
                 <div class="flip-card-back">
                     <p class="title">Williams Racing</p>
@@ -154,7 +154,7 @@ if (!isset($_SESSION['logeado']))
         <div class="flip-card">
             <div class="flip-card-inner">
                 <div class="flip-card-front">
-                    <img src="https://drive.google.com/thumbnail?id=1E7-qHIJV8rTDLwNdtzHY0s7FWIs3NthQ" alt="" class="imagen">
+                    <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153582/RedBull_yamtmb.png" alt="" class="imagen">
                 </div>
                 <div class="flip-card-back">
                     <p class="title">Oracle Red Bull Racing</p>
@@ -166,7 +166,7 @@ if (!isset($_SESSION['logeado']))
         <div class="flip-card">
             <div class="flip-card-inner">
                 <div class="flip-card-front">
-                    <img src="https://drive.google.com/thumbnail?id=1-SijSTYw_eBuQ0AoniIpe2o6aZGqmdWN" alt="" class="imagen">
+                    <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153581/astonMartin_czzl2z.png" alt="" class="imagen">
                 </div>
                 <div class="flip-card-back">
                     <p class="title">Aston Martin Aramco F1 Team</p>
@@ -178,7 +178,7 @@ if (!isset($_SESSION['logeado']))
         <div class="flip-card">
             <div class="flip-card-inner">
                 <div class="flip-card-front">
-                    <img src="https://drive.google.com/thumbnail?id=1tZYk08Kv_uepFpwvBKEjapGOzej5q9v9" alt="" class="imagen">
+                    <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153582/RB_qqiktb.png" alt="" class="imagen">
                 </div>
                 <div class="flip-card-back">
                     <p class="title">Visa Cash RB Formula 1 Team</p>
@@ -195,7 +195,7 @@ if (!isset($_SESSION['logeado']))
   <div class="footer-container">
     <!-- Columna 1: Logo -->
     <div class="footer-col logo-col">
-      <img src="https://drive.google.com/thumbnail?id=1duv5P3V4NFqqMnfiMjl3RoF9-DN_0_4j" alt="Logo F1" class="footer-logo">
+      <img src="https://res.cloudinary.com/dl3o5tx2u/image/upload/v1752153556/awebo_leqzak.png" alt="Logo F1" class="footer-logo">
     </div>
 
     <!-- Columna 2: Información -->
