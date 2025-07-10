@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!isset($_SESSION['logeado']))
-    $_SESSION['logeado']=false;
+    $_SESSION['logeado'] = false;
 ?>
 
 <!DOCTYPE html>
@@ -9,7 +9,7 @@ if (!isset($_SESSION['logeado']))
 
 <head>
     <meta charset="UTF-8">
-<link rel="icon" type="image/png" href="https://drive.google.com/thumbnail?id=1duv5P3V4NFqqMnfiMjl3RoF9-DN_0_4j">
+    <link rel="icon" type="image/png" href="https://drive.google.com/thumbnail?id=1duv5P3V4NFqqMnfiMjl3RoF9-DN_0_4j">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F1WF | Mi perfil</title>
     <link rel="stylesheet" href="../css/administrativa.css">
@@ -57,6 +57,7 @@ if (!isset($_SESSION['logeado']))
             <div class="option" onclick="showSection('predecirCampeon')">Predecir Campeón</div>
             <div class="option" onclick="showSection('quiz')">Quiz</div>
             <div class="option" onclick="showSection('graficos')">Graficos</div>
+            <div class="option" onclick="showSection('clasificacion')">Clasificación</div>
         </div>
         <div class="content">
             <div id="modificarPerfil">
@@ -71,11 +72,10 @@ if (!isset($_SESSION['logeado']))
                 <h2>Resultados de quiz</h2>
                 <?php include '../../api/mostrar_quizzes.php'; ?>
             </div>
-            <div id="graficos">
-                <h2>Graficos</h2>
-                <?php include '../../api/mostrar_graficos.php'; ?>
-                <?php include '../../api/grafico1.php'; ?>
+            <div id="clasificacion" style="display: none;">
+                <?php include '../../api/TablaMostrarClasificacion.php'; ?>
             </div>
+
         </div>
     </div>
 
@@ -94,4 +94,5 @@ if (!isset($_SESSION['logeado']))
         });
     </script>
 </body>
+
 </html>
