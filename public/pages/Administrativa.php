@@ -13,7 +13,18 @@ if (!isset($_SESSION['logeado']))
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F1WF | Mi perfil</title>
     <link rel="stylesheet" href="../css/administrativa.css">
+    <script>
+        function showSection(id) {
+            document.querySelectorAll('.content > div').forEach(div => {
+                div.classList.add('hidden');
+            });
+            document.getElementById(id).classList.remove('hidden');
+        }
 
+        document.addEventListener('DOMContentLoaded', function() {
+            showSection('modificarPerfil'); // Cambia según la sección que quieras mostrar por defecto
+        });
+    </script>
 </head>
 
 <body>
@@ -51,48 +62,41 @@ if (!isset($_SESSION['logeado']))
         </ul>
     </nav>
 
+    <div class="top-nav">
+        <button onclick="showSection('modificarPerfil')">Modificar Perfil</button>
+        <button onclick="showSection('predecirCampeon')">Predecir Campeón</button>
+        <button onclick="showSection('quiz')">Quiz</button>
+        <button onclick="showSection('clasificacion')">Clasificación</button>
+    </div>
+
     <div class="main-content">
-        <div class="sidebar">
-            <div class="option" onclick="showSection('modificarPerfil')">Modificar Perfil</div>
-            <div class="option" onclick="showSection('predecirCampeon')">Predecir Campeón</div>
-            <div class="option" onclick="showSection('quiz')">Quiz</div>
-            <div class="option" onclick="showSection('graficos')">Graficos</div>
-            <div class="option" onclick="showSection('clasificacion')">Clasificación</div>
-        </div>
+
         <div class="content">
             <div id="modificarPerfil">
                 <h2>Usuarios</h2>
                 <?php include_once '../../api/mostrar_usuarios.php'; ?>
             </div>
-            <div id="predecirCampeon">
+            <div id="predecirCampeon" class="hidden">
                 <h2>Predecir campeón</h2>
                 <?php include '../../api/mostrar_predicciones.php'; ?>
             </div>
-            <div id="quiz">
+            <div id="quiz" class="hidden">
                 <h2>Resultados de quiz</h2>
                 <?php include '../../api/mostrar_quizzes.php'; ?>
             </div>
-            <div id="clasificacion" style="display: none;">
+            <div id="clasificacion" class="hidden">
                 <?php include '../../api/TablaMostrarClasificacion.php'; ?>
+                <br>
+                <?php include '../../api/TablaMostrarClasificacionEquipos.php'; ?>
             </div>
 
         </div>
+
     </div>
 
-    <script>
-        function showSection(sectionId) {
-            var sections = document.querySelectorAll('.content > div');
-            sections.forEach(function(section) {
-                section.classList.add('hidden');
-            });
-            document.getElementById(sectionId).classList.remove('hidden');
-        }
 
-        document.addEventListener('DOMContentLoaded', function() {
-            showSection('modificarPerfil');
-            drawCharts();
-        });
-    </script>
+
+
 </body>
 
 </html>

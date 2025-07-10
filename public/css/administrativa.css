@@ -158,17 +158,7 @@ a:hover {
     display: flex;
 }
 
-.sidebar {
-    width: 200px;
-    background-color: #3c3f41;
-    padding: 20px;
-    color: white;
-    position: fixed;
-    bottom: 0;
-    font-weight: bold; 
-    font-family: 'formula', serif;
-    height: calc(100% - 8.49em);
-}
+
 
 .option {
     margin-bottom: 15px;
@@ -201,7 +191,7 @@ a:hover {
 }
 
 .hidden {
-    display: none;
+    display: none !important;
     font-family: 'formula', serif;
 }
 
@@ -294,3 +284,31 @@ table th, table td {
         font-size: 0.9em;
     }
 }
+
+.top-nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #15151e; /* azul fuerte */
+    border-bottom: 2px solid #003e7e;
+    font-family: 'formula', serif;
+}
+
+
+.top-nav button {
+    padding: 10px 20px;
+    font-family: 'formula', serif;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.top-nav button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
