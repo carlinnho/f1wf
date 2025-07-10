@@ -637,3 +637,115 @@ circle {
         stroke-dashoffset: -125px;
     }
 }
+
+.seasonSection {
+  margin: 80px auto;
+  padding: 40px 20px;
+  width: 100%;
+  background-color: transparent;
+  color: whitesmoke;
+  font-family: 'formula', sans-serif;
+}
+
+.season-tabs {
+  max-width: 1000px;
+  margin: auto;
+  background-color: #0a0a0a;
+  padding: 80px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+}
+
+.season-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #222;
+  padding-bottom: 5px;
+}
+
+.season-header h1 {
+  font-size: 2.2rem;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'formulaT', serif;
+}
+
+.tab-buttons {
+  display: flex;
+  gap: 20px;
+  margin: 0;
+}
+
+.tab-btn {
+  cursor: pointer;
+  padding-bottom: 5px;
+  border-bottom: 3px solid transparent;
+  color: #bbb;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+}
+
+.tab-btn:hover {
+  color: white;
+}
+
+.tab-btn.active {
+  color: white;
+  border-bottom: 3px solid #e10600;
+}
+
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.tab-content {
+  display: none;
+  margin-top: 20px;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #111;
+  color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  font-size: 14px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #333;
+}
+
+th {
+  background-color: #222;
+  color: #ddd;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: 'formulaT', serif;
+}
+
+td {
+  color: #ccc;
+  font-family: 'formula', serif;
+}
+
+tr:hover td {
+  background-color: #1c1c1c;
+}
+
