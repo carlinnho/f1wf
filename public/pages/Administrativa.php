@@ -1,7 +1,10 @@
 <?php
 session_start();
-if (!isset($_SESSION['logeado']))
-    $_SESSION['logeado'] = false;
+if (!isset($_SESSION['logeado']) || $_SESSION['logeado'] !== true || !isset($_SESSION['admin']) || $_SESSION['admin'] != 1) {
+    // Redirige a la página de inicio si no es admin
+    header("Location: ../index.php");
+    exit;
+}
 ?>
 
 <!DOCTYPE html>
@@ -22,7 +25,7 @@ if (!isset($_SESSION['logeado']))
         }
 
         document.addEventListener('DOMContentLoaded', function() {
-            showSection('modificarPerfil'); // Cambia según la sección que quieras mostrar por defecto
+            showSection('modificarPerfil');
         });
     </script>
 </head>
@@ -43,22 +46,13 @@ if (!isset($_SESSION['logeado']))
         <input type="checkbox" id="menu-toggle" class="menu-toggle">
         <label for="menu-toggle" class="menu-icon">&#9776;</label>
         <ul class="barnav">
-            <?php if ($_SESSION['logeado']) { ?>
-                <li><a href="../index.php">HOME</a></li>
-                <li><a href="Corredores.php">CORREDORES</a></li>
-                <li><a href="equipos.php">EQUIPOS</a></li>
-                <li><a href="info.php">INFORMACIÓN</a></li>
-                <li><a href="menuQuiz.php">HACER QUIZ</a></li>
-                <li><a href="menuPredecir.php">PREDECIR</a></li>
-                <li><a href="Administrativa.php">MI PERFIL</a></li>
-            <?php } else { ?>
-                <li><a href="../index.php">HOME</a></li>
-                <li><a href="Corredores.php">CORREDORES</a></li>
-                <li><a href="equipos.php">EQUIPOS</a></li>
-                <li><a href="info.php">INFORMACIÓN</a></li>
-                <li><a href="menuQuiz.php">HACER QUIZ</a></li>
-                <li><a href="menuPredecir.php">PREDECIR</a></li>
-            <?php } ?>
+            <li><a href="../index.php">HOME</a></li>
+            <li><a href="Corredores.php">CORREDORES</a></li>
+            <li><a href="equipos.php">EQUIPOS</a></li>
+            <li><a href="info.php">INFORMACIÓN</a></li>
+            <li><a href="menuQuiz.php">HACER QUIZ</a></li>
+            <li><a href="menuPredecir.php">PREDECIR</a></li>
+            <li><a href="Administrativa.php">MI PERFIL</a></li>
         </ul>
     </nav>
 
@@ -70,7 +64,6 @@ if (!isset($_SESSION['logeado']))
     </div>
 
     <div class="main-content">
-
         <div class="content">
             <div id="modificarPerfil">
                 <h2>Usuarios</h2>
@@ -89,14 +82,7 @@ if (!isset($_SESSION['logeado']))
                 <br>
                 <?php include '../../api/TablaMostrarClasificacionEquipos.php'; ?>
             </div>
-
         </div>
-
     </div>
-
-
-
-
 </body>
-
 </html>

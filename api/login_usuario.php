@@ -5,7 +5,8 @@ include 'conexion.php';
 $usuario = $_POST['username'];
 $password = $_POST['password'];
 
-$validar_login = mysqli_query($conexion, "SELECT ID, Username, Correo FROM usuario WHERE Username='$usuario' AND password='$password'");
+// Agregamos el campo 'admin' al SELECT
+$validar_login = mysqli_query($conexion, "SELECT ID, Username, Correo, admin FROM usuario WHERE Username='$usuario' AND password='$password'");
 
 if (mysqli_num_rows($validar_login) > 0) {
     $usuario = mysqli_fetch_assoc($validar_login);
@@ -13,6 +14,7 @@ if (mysqli_num_rows($validar_login) > 0) {
     $_SESSION['logeado'] = true;
     $_SESSION['idusuario'] = $usuario['ID'];
     $_SESSION['correo'] = $usuario['Correo'];  
+    $_SESSION['admin'] = $usuario['admin']; // ← esta línea es clave
     header("location: ../public/index.php");
     exit;
 } else {
