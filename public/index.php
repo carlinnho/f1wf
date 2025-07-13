@@ -13,6 +13,68 @@ if (!isset($_SESSION['logeado']))
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>F1WF | Inicio</title>
   <link rel="stylesheet" href="css/index.css">
+    <script>
+    function showTab(tabId) {
+
+      const tabs = document.querySelectorAll('.tab-content');
+      tabs.forEach(tab => tab.classList.remove('active'));
+      const buttons = document.querySelectorAll('.tab-btn');
+      buttons.forEach(btn => btn.classList.remove('active'));
+      document.getElementById(tabId).classList.add('active');
+      event.currentTarget.classList.add('active');
+    }
+  </script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var loader = document.getElementById('loader');
+      loader.style.display = 'flex';
+
+      setTimeout(function() {
+        loader.style.display = 'none';
+      }, 1000);
+    });
+  </script>
+
+<script>
+fetch('../api/MostrarClasificacion.php')
+  .then(response => response.json())
+  .then(data => {
+    const driversBody = document.querySelector('#drivers tbody');
+    const teamsBody = document.querySelector('#teams tbody');
+
+    // Limpiar tablas
+    driversBody.innerHTML = '';
+    teamsBody.innerHTML = '';
+
+    // Renderizar pilotos
+    data.drivers.forEach(driver => {
+      driversBody.innerHTML += `
+        <tr>
+          <td>${driver.posicion}</td>
+          <td>${driver.corredor}</td>
+          <td>${driver.equipo}</td>
+          <td>${driver.puntuacion}</td>
+        </tr>
+      `;
+    });
+
+    // Renderizar equipos
+    data.teams.forEach(team => {
+      teamsBody.innerHTML += `
+        <tr>
+          <td>${team.posicion}</td>
+          <td>${team.equipo}</td>
+          <td>${team.puntuacion}</td>
+        </tr>
+      `;
+    });
+  })
+  .catch(error => {
+    console.error('Error al cargar la clasificación:', error);
+  });
+</script>
+
 
 </head>
 
@@ -206,67 +268,7 @@ if (!isset($_SESSION['logeado']))
       </div>
     </div>
   </footer>
-  <script>
-    function showTab(tabId) {
 
-      const tabs = document.querySelectorAll('.tab-content');
-      tabs.forEach(tab => tab.classList.remove('active'));
-      const buttons = document.querySelectorAll('.tab-btn');
-      buttons.forEach(btn => btn.classList.remove('active'));
-      document.getElementById(tabId).classList.add('active');
-      event.currentTarget.classList.add('active');
-    }
-  </script>
-
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      var loader = document.getElementById('loader');
-      loader.style.display = 'flex';
-
-      setTimeout(function() {
-        loader.style.display = 'none';
-      }, 1000);
-    });
-  </script>
-
-  <script>
-fetch('../api/MostrarClasificacion.php')
-  .then(response => response.json())
-  .then(data => {
-    const driversBody = document.querySelector('#drivers tbody');
-    const teamsBody = document.querySelector('#teams tbody');
-
-    // Limpiar tablas
-    driversBody.innerHTML = '';
-    teamsBody.innerHTML = '';
-
-    // Renderizar pilotos
-    data.drivers.forEach(driver => {
-      driversBody.innerHTML += 
-        <tr>
-          <td>${driver.posicion}</td>
-          <td>${driver.corredor}</td>
-          <td>${driver.equipo}</td>
-          <td>${driver.puntuacion}</td>
-        </tr>
-      ;
-    });
-
-    // Renderizar equipos
-    data.teams.forEach(team => {
-      teamsBody.innerHTML += 
-        <tr>
-          <td>${team.posicion}</td>
-          <td>${team.equipo}</td>
-          <td>${team.puntuacion}</td>
-        </tr>
-      ;
-    });
-  })
-  .catch(error => {
-    console.error('Error al cargar la clasificación:', error);
-  });
-</script>
 
 </body>
 
