@@ -146,7 +146,6 @@ if (!isset($_SESSION['logeado']))
     </div>
   </section>
 
-
   <section class="MejoresCorredores">
     <div class="background"></div>
     <div class="tituloCorredores">CONOCE A NUESTROS MEJORES CORREDORES</div>
@@ -176,7 +175,6 @@ if (!isset($_SESSION['logeado']))
     <a href="Corredores.php" class="botonCorredores">Conoce más aquí</a>
   </section>
 
-
   <section class="MomentosDestacados">
     <div class="fondito"></div>
     <div class="tituloMomentos">Momentos Destacados</div>
@@ -193,8 +191,7 @@ if (!isset($_SESSION['logeado']))
     </div>
     <a href="equipos.php" class="botonMomentos">Descubre más aquí</a>
   </section>
-
-
+  
   <footer class="footer">
     <div class="footer-container">
       <!-- Columna 1: Logo -->
@@ -221,7 +218,6 @@ if (!isset($_SESSION['logeado']))
     }
   </script>
 
-
   <script>
     document.addEventListener("DOMContentLoaded", function() {
       var loader = document.getElementById('loader');
@@ -246,32 +242,31 @@ fetch('../api/MostrarClasificacion.php')
 
     // Renderizar pilotos
     data.drivers.forEach(driver => {
-      driversBody.innerHTML += `
+      driversBody.innerHTML += 
         <tr>
           <td>${driver.posicion}</td>
           <td>${driver.corredor}</td>
           <td>${driver.equipo}</td>
           <td>${driver.puntuacion}</td>
         </tr>
-      `;
+      ;
     });
 
     // Renderizar equipos
     data.teams.forEach(team => {
-      teamsBody.innerHTML += `
+      teamsBody.innerHTML += 
         <tr>
           <td>${team.posicion}</td>
           <td>${team.equipo}</td>
           <td>${team.puntuacion}</td>
         </tr>
-      `;
+      ;
     });
   })
   .catch(error => {
     console.error('Error al cargar la clasificación:', error);
   });
 </script>
-
 
 </body>
 
