@@ -1,0 +1,24 @@
+name: Deploy PHP App to XAMPP (local simulation)
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🔄 Checkout repository
+        uses: actions/checkout@v3
+
+      - name: 🧪 Validate PHP files (syntax check)
+        run: |
+          find . -type f -name "*.php" -exec php -l {} \;
+
+      - name: 📦 Zip project for deployment
+        run: |
+          zip -r php-xampp-package.zip api includes public
+          
+      - name: ✅ Confirm workflow completed
+        run: echo "Despliegue local listo para copiar a htdocs."
